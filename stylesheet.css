@@ -1,9 +1,29 @@
-header{color: black; font-size: 44px;}
-body{background-color: hsla(16, 68%, 46%, 0.308);}
-h1{color: black; font-size:  34px;}
-h2{color: black; font-size: 28px;}
-p{color:rgb(0, 0, 0); font-size: 20px}
-a:link, a:visited {
+header {
+  color: black;
+  font-size: 44px;
+}
+
+body {
+  background-color: hsla(16, 68%, 46%, 0.308);
+}
+
+h1 {
+  color: black;
+  font-size: 34px;
+}
+
+h2 {
+  color: black;
+  font-size: 28px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px
+}
+
+a:link,
+a:visited {
   background-color: rgb(75, 75, 75);
   color: white;
   padding: 14px 25px;
@@ -13,11 +33,40 @@ a:link, a:visited {
   width: 33%;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   background-color: rgb(75, 75, 75);
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+li {
+  border-right: 1px solid #bbb;
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
