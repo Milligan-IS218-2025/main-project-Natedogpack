@@ -10,7 +10,7 @@ a:link, a:visited {
   text-align: center;
   float: left;
   text-decoration: none;
-  
+  width: 100%;
 }
 
 a:hover, a:active {
