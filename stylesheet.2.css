@@ -1,2 +1,7 @@
 h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgba(14, 14, 165, 0.623);}
-p{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgba(255, 68, 0, 0.623);}  
+p{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgba(255, 68, 0, 0.623);} 
+div.race-Results
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+} 
