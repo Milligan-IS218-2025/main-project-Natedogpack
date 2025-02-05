@@ -3,5 +3,6 @@ p{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:
 div.race-Results
 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
 } 
