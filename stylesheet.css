@@ -47,7 +47,7 @@ li a:hover {
 }
 footer{background-color: #111; color: white;}
 a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
