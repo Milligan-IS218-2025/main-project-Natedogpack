@@ -43,3 +43,8 @@ Throughout this class, you will be working on a semester-long project to develop
 * [x] Select and use a consistent color theme across all pages
 * [x] Select and use consistent margins and padding across all pages
 * [x] Use pseudo-classes to change the styles of hyperlinks across all pages
+
+### Week 4
+
+* [x] All of your pages should have a responsive layout
+* [x] Include at least one CSS Grid
