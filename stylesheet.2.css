@@ -1,13 +1,11 @@
 h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgba(14, 14, 165, 0.623);
-    font-size: 30px
 }
 
 p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgba(255, 68, 0, 0.623);
-    font-size: 20px;
 }
 
 div.race-Results {
