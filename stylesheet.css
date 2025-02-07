@@ -1,0 +1,72 @@
+header {
+  color: black;
+  font-size: 6.5vw;
+}
+
+body {
+  background-color: hsla(16, 68%, 46%, 0.308);
+}
+
+h1 {
+  color: black;
+  font-size: 5vw;
+}
+
+h2 {
+  color: black;
+  font-size: 3vw;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 2vw
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  font-size: 1vw;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #333;
+  font-size: 1.2vw;
+}
+
+a:hover {
+  background-color: #111;
+}
+
+img {
+  size: 15%;
+}
