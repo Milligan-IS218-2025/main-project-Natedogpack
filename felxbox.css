@@ -1,0 +1,44 @@
+
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .flex-container a {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .flex-container a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .flex-container a {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .flex-container a {
+      flex: 1 1 calc(33.33% - 10px); /* Three links per row */
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .flex-container a {
+      flex: 1 1 calc(20% - 10px); /* Five links per row */
+    }
+  }
+  
