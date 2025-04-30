@@ -10,11 +10,10 @@ p {
     color: black;
 }
 
-div.race-Results {
+div.race-results {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-column-gap: 10%;
-    padding: 20px;
     text-align: center;
     
 }
