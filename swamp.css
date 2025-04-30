@@ -18,17 +18,16 @@ div.race-results {
     
 }
 aside {
-    background-color: #f8f9fa; /* Light gray background */
     padding: 20px;
     border: 1px solid #ddd;
-    width: 300px; /* Adjust width as needed */
+    width: 90%; /* Adjust width as needed */
 }
 
 aside ul {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 10px; /* Space between items */
+    gap: 1%; /* Space between items */
     justify-content: center;
 }
 
@@ -40,7 +39,6 @@ aside ul li a {
     display: block;
     text-decoration: none;
     background-color: #007bff; /* Blue background */
-    color: white;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
