@@ -1,6 +1,6 @@
 
   
-  .flex-container {
+  .school-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,7 +8,7 @@
     padding: 20px;
   }
   
-  .flex-container a {
+  .school-list a {
     display: block;
     padding: 10px 20px;
     text-align: center;
@@ -19,13 +19,13 @@
     transition: background-color 0.3s ease;
   }
   
-  .flex-container a:hover {
+  .school-list a:hover {
     background-color: #0056b3;
   }
   
   /* Responsive styling */
   @media (max-width: 600px) {
-    .flex-container a {
+    .school-list a {
       flex: 1 1 100%;
     }
   }
