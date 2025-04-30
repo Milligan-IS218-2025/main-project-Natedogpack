@@ -2,7 +2,12 @@ header {
   color: black;
   font-size: 6.5vw;
 }
-
+section {
+  width: 500px;
+  word-wrap: break-word; /* Ensures long words break properly */
+  white-space: normal;  /* Allows text wrapping */
+  overflow: hidden;     /* Prevents overflow outside the section */
+}
 body {
   background-color: hsla(16, 68%, 46%, 0.308);
 }
