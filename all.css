@@ -82,3 +82,8 @@ a:hover {
 img {
   size: 15%;
 }
+article ul li{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
