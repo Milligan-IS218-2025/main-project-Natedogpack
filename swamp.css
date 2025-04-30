@@ -19,7 +19,6 @@ div.race-results {
 }
 aside {
     padding: 20px;
-    border: 1px solid #ddd;
     width: 90%; /* Adjust width as needed */
 }
 
@@ -41,8 +40,8 @@ aside ul li a {
     background-color: #007bff; /* Blue background */
     padding: 10px;
     text-align: center;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+   
+ 
 }
 
 aside ul li a:hover {
