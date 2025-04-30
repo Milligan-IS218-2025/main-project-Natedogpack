@@ -8,6 +8,7 @@ section {
   white-space: normal;  /* Allows text wrapping */
   overflow: hidden;     /* Prevents overflow outside the section */
   text-align: center;
+  margin: auto;
 }
 article {
   width: 90%;
