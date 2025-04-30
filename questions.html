@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.css">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            transition: background-color 0.5s;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <style>
+        
+        form {
+            background-color: white;
+            max-width: 60%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: auto;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        SPRING 2025 SECCC SEASON
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About The Author</a></li>
+            <li><a href="Swamp Classic.html">Swamp Classic</a></li>
+            <li><a href="Auburn.html">Auburn Cycling Classic</a></li>
+            <li><a href="Clemson.html">Tiger Town Classic</a></li>
+            <li><a href="Piedmont.html">Northbeast Cycling Classic</a></li>
+            <li><a href="Milligan.html">Milligan Race Weekend</a></li>
+            <li><a href="Sunny-King.html">Sunny King</a></li>
+        </ul>
+     </nav>
+    <article>
+    <form action="mailto:njmckissick@my.milligan.edu" method="post" enctype="text/plain">
+        <h2>Submit a Question</h2>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="question">Your Question:</label>
+        <textarea id="question" name="question" rows="4" required></textarea>
+
+        <button type="submit">Send Question</button>
+    </form>
+
+
+    <h1>Click the button to change the background color!</h1>
+    <button onclick="changeColor()">Change Color</button>
+
+    <script>
+        function changeColor() {
+            const colors = ["#f4a261", "#2a9d8f", "#e76f51", "#264653", "#8ecae6", "#ffbe0b"];
+            document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        }
+    </script>
+    </article>
+<footer>Copyright © 2025 Nathan McKissick. All Rights Reserved</footer>
+</body>
+</html>
